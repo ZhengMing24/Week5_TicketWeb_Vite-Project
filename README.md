@@ -1,5 +1,5 @@
 # GlassWeb
-## GitHub Pages :
+## GitHub Pages : https://zhengming24.github.io/Week5_TicketWeb_Vite-Project/
 - 以Vite環境開發眼鏡官網
 ## Node.js 版本
   - 專案的 Node.js 版本需為 v16 以上
