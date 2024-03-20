@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>購票網站</title>
+  </head>
+
+  <body style="display: inline;">
+    <div class="d-none d-lg-block">
+      <div class="header" >
+        <div class="headerContent">
+          <a href="index.html" class="headerContent2" >
+            <img src="img/logo.png" alt="LOGO">
+            <h2>7TAO</h2>
+            <h3>活動訂票網</h3>
+          </a>
+          <input type="text" name="input" id="input" placeholder="探索活動">
+          <button><i class="bi bi-search"></i></button>
+        </div>
+       
+        <div class="headerContent3">
+          <a href="#">
+            <i class="bi bi-postcard"></i>
+            <span >REGISTER</span>
+          </a>
+          <a href="login.html">
+            <i class="bi bi-person-fill"></i>
+            <span >LOGIN</span>
+          </a>
+        </div>
+      </div>
+      <hr>
+    </div>
+    
+    <!-- Mobile -->
+    <div class="d-lg-none" >
+      <div class="header">
+
+        <div class="headerContent">
+          <a href="index.html" class="headerContent2" >
+            <img src="img/logo.png" alt="LOGO">
+          </a>
+          <input type="text" name="" id="" value="探索活動">
+          <button><i class="bi bi-search"></i></button>
+          </a>
+        </div>
+       
+        <div class="hamburger none headerContent3" >
+          <a class="d-flex align-items-center px-2 py-2 border border-dark rounded h-100 none " data-bs-toggle="collapse" href="#collpase" role="button" aria-expanded="false" aria-controls="collapseExample">
+            <i class="bi bi-list"></i>
+          </a>
+        </div>
+      </div>
+  
+      <div class="collapse" id="collpase">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="bi bi-postcard"></i>
+              <span >REGISTER</span>
+            </a>
+          </li>
+          <li>
+            <a href="login.html">
+              <i class="bi bi-person-fill"></i>
+              <span >LOGIN</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <hr>
+    </div>
+
+    <div class="banner">  
+      <img src="img/13.jpg" data-aos="zoom-in-up" alt="">
+      <div class="text" data-aos="fade-right">19 MAY 2023</div>
+      <div class="text2" data-aos="fade-left">隔牆有耳-沒有草東的派對</div>
+    </div>
+
+    <div class="content">
+      <div class="content2" data-aos="fade-up">
+        <a href="#">
+          <img src="img/cate01.svg" class="img-fluid" alt="svg1"/>
+          <p>演出</p>
+        </a>
+      </div>
+
+      <div class="content2" data-aos="fade-up">
+        <a href="#">
+          <img src="img/cate02.svg" class="img-fluid" alt="svg2"/>
+          <p>聯誼</p>
+        </a>
+      </div>
+
+      <div class="content2" data-aos="fade-up">
+        <a href="#">
+          <img src="img/cate03.svg" class="img-fluid" alt="svg3"/>
+          <p>聯誼</p>
+        </a>
+      </div>
+
+      <div class="content2" data-aos="fade-up">
+        <a href="#">
+          <img src="img/cate04.svg" class="img-fluid" alt="svg4"/>
+          <p>聯誼</p>
+        </a>
+      </div>
+
+      <div class="content2" data-aos="fade-up">
+        <a href="#">
+          <img src="img/cate05.svg" class="img-fluid" alt="svg5"/>
+          <p>聯誼</p>
+        </a>
+      </div>
+
+      <div class="content2" style="background-color: black;" data-aos="fade-up">
+        <a href="">
+          <p class="p">探索<br>更多</p>
+        </a>
+      </div>
+    </div>
+
+    <div class="body" data-aos="fade-up">
+      <div class="bodyContent">
+        <div>RECENT</div>
+        <div>近期活動</div>
+      </div>
+    </div>
+
+    <div class="body2" data-aos="fade-up">
+      <div class="body2Content">
+        <h3>19 MAY 2023</h3>
+        <img src="img/01.jpg" class="img-fluid" alt="">
+        <h4>邪典電影派對——房間</h4>
+        <p class="P">你有聽說過「大災難家」裡面的主角 Tommy Wiseau 製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" class="img-fluid" alt="活動LOGO"/>社群活動
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">開賣中
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="body2Content" data-aos="fade-up">
+        <h3>23 MAY 2023</h3>
+        <img src="img/02.jpg" class="img-fluid" alt="">
+        <h4>怪舞俱樂部</h4>
+        <p class="P">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" alt="活動LOGO" class="img-fluid w pr-4"/>演出
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">檢視活動
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="body2Content" data-aos="fade-up">
+        <h3>30 MAY 2023</h3>
+        <img src="img/03.jpg" class="img-fluid" alt="">
+        <h4>哈利波特馬拉松</h4>
+        <p class="P">每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" alt="活動LOGO" class="img-fluid w pr-4"/>聯誼
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">開賣中
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="body2Content" data-aos="fade-up">
+        <h3>12 June 2023</h3>
+        <img src="img/04.jpg" class="img-fluid img4" alt="" >
+        <h4>皮卡丘排球大賽</h4>
+        <p class="P">還記得小時候玩的小遊戲嗎？總是有朋友吹噓自己獨孤求敗、只求一敗？是時候該展現真正的實力了！本活動採用瑞士制賽程，以絕對公平的方式進行，是時候該證明自己...</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" alt="活動LOGO" class="img-fluid w pr-4"/>遊戲競賽
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">開賣中
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="body2Content" data-aos="fade-up">
+        <h3>25 June 2023</h3>
+        <img src="img/05.jpg" class="img-fluid" alt="">
+        <h4>開賣中</h4>
+        <p class="P">身邊總是有對自己酒量有高度自信的朋友嗎？拉著他/她一起來參加酒精路跑吧！一起拍下第一杯直到倒下為止的照片，一起喝遍市區內各家極具品味的酒吧。</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" alt="活動LOGO" class="img-fluid w pr-4"/>社群活動
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">開賣中
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="body2Content" data-aos="fade-up">
+        <h3>9 July 2023</h3>
+        <img src="img/06.jpg" class="img-fluid" alt="">
+        <h4>展覽——我的房間</h4>
+        <p class="P">每個人的房間總會有那麼一兩個能代表自己的物事，或許是再平凡不過的牙刷、馬克杯，或許有那些別人的房間從沒出現過的小東西——那些能定義自己的特別的東西。</p>
+        <div class="body2Bottom">
+          <a href="#">
+            <img src="./img/sparkler.png" alt="活動LOGO" class="img-fluid w pr-4"/>社群活動
+          </a>
+          <p data-bs-toggle="modal" data-bs-target="#staticBackdrop">開賣中
+            <i class="bi bi-chevron-double-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog custom-dialog">
+        <div class="modal-content custom-content">
+          <div class="modal-header custom-header">
+            <h5 class="modal-title custom-title" id="staticBackdropLabel" >立刻成為7TAO會員</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body custom-body">
+            立刻成為七逃會員，加速活動報名流程並取得活動優惠資訊。<br>
+            您也可以先報名活動，日後再註冊帳號，<br>
+            系統會在認證您的Email後，協助您找回舊的訂單。
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark custom-btn ">立即成為會員</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body3">
+      <div class="body3Content">
+        <div>ONLINE</div>
+        <div>線上活動</div>
+      </div>
+    </div>
+
+    <div class="body4" data-aos="fade-up">
+      <div>
+        <img src="img/online.jpg" alt="">
+      </div>
+
+      <div class="body4Content" data-aos="fade-up">
+        <h3 class="mb-3 fs-3 fw-bold noto-tc-serif">切特居批踢</h3>
+        <div class="mb-lg-6 mb-2">
+          <button
+            class="btn border-black border-start border-4 noto-tc-serif">競賽
+          </button>
+          <button
+            class="btn border-black border-start border-4 noto-tc-serif">科技
+          </button>
+          <button
+            class="btn border-black border-start border-4 noto-tc-serif">有趣
+          </button>
+        </div>
+        <p class="fw-normal text-black noto-tc-sans">
+          最近網路上很流行的AI程式
+          ChatGPT，可以用來聊天或是查詢、整理各種資料，不同的應用方式如雨後春筍般冒出來。
+        </p>
+        <p class="fw-normal text-black noto-tc-sans">
+          這個活動讓大家把自己最有特色的使用方法提出來讓大家參考，也會投票出最有趣的用法。
+        </p>
+        <p class="fw-normal text-black mb-lg-6 mb-2 noto-tc-sans">
+          該讓其他人知道自己使用 ChatGPT 的姿勢才是最特別的那個了！
+        </p>
+        <div class="d-grid gap-2 effect">
+          <button class="btn btn-black fw-bold button" type="button">查看活動詳情<i class="bi bi-chevron-double-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-gray body5 d-none d-lg-block" >
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+          <div class="swiper-slide">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="d-lg-none">
+      <div class="bg-gray body5">
+        <div class="swiper mySwiper3">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              活動集錦・ALBUMS・
+            </div>
+            <div class="swiper-slide">
+              活動集錦・ALBUMS・
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-6 body6">
+      <ul class="row list-unstyled">
+        <li class="col-lg-3 col-12 mb-7 mt-7" data-aos="fade-up">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 translate fs-1 bg-white px-3 py-2 fw-bold h2-transform">社群活動</h2>
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true"
+              class="img-fluid w-100"
+              alt="社群活動"
+            />
+            <p class="pt-3 noto-tc-serif fw-bold">無聲派對-閉閉嘴dancing</p>
+          </div>
+        </li>
+
+        <li class="col-lg-3 col-12 mb-7 mt-lg-7" data-aos="fade-up">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative" style="transform: skewX(-3deg);">
+            <h2 class="position-absolute top-0 fs-1 bg-white px-3 py-2 fw-bold h2-transform">藝文活動</h2>
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true"
+              class="img-fluid w-100"
+              alt="藝文活動"
+            />
+            <p class="pt-3 noto-tc-serif fw-bold">搶救老店大作戰</p>
+          </div>
+        </li>
+
+        <li class="col-lg-3 col-12 mb-7 mt-lg-7" data-aos="fade-up">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative" style="transform: skewX(3deg);">
+            <h2 class="position-absolute top-0 fs-1 bg-white px-3 py-2 fw-bold h2-transform">自我覺察</h2>
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true"
+              class="img-fluid w-100"
+              alt="自我覺察"
+            />
+            <p class="pt-3 noto-tc-serif fw-bold">內觀修行-部落篇</p>
+          </div>
+        </li>
+
+        <li class="col-lg-3 col-12 mb-7 mt-lg-7" data-aos="fade-up">
+          <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+            <h2 class="position-absolute top-0 fs-1 bg-white px-3 py-2 fw-bold h2-transform">聯誼活動</h2>
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true"
+              class="img-fluid w-100"
+              alt="聯誼活動"
+            />
+            <p class="pt-3 noto-tc-serif fw-bold">賞櫻野餐</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="bg-gray body5 d-none d-lg-block" >
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+          <div class="swiper-slide">
+            活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・活動集錦・ALBUMS・
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile -->
+    <div class="d-lg-none">
+      <div class="bg-gray body5">
+        <div class="swiper mySwiper4">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              活動集錦・ALBUMS・
+            </div>
+            <div class="swiper-slide">
+              活動集錦・ALBUMS・
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body7">
+      <div class="body7Left">
+        <div class="body7LeftTop">
+          <h3>#FOLLOW US</h3>
+        </div>
+        <div class="body7LeftBottom">
+          <p>想第一時間獲得新奇有趣的活動資訊？<br>
+            追蹤我們的社群吧！<br>
+            也歡迎你聯繫我們，提供好玩有趣的活動企劃。
+          </p>
+          <ul>
+            <li class="mb-3 d-flex">
+              <a href="#">
+                <i class="bi bi-envelope"></i>
+                <span>7tao.event@gmail.com</span>
+              </a>
+            </li>
+
+            <li class="mb-3 d-flex">
+              <a href="#">
+                <i class="bi bi-telephone"></i>
+                <span>09123123123</span>
+              </a>
+            </li>
+
+            <li class="mb-3 d-flex">
+              <a href="#">
+                <i class="bi bi-chat-right-text"></i>
+                <span>7TAO七逃</span>
+              </a>
+            </li>
+          </ul>      
+        </div>
+      </div>
+
+      <div class="body7Right">
+        <div class="body7RightTop">
+          <h3>#SUBSCRIBE US</h3>
+        </div>
+
+        <div class="body7RightBottom">
+          <p>訂閱電子報送折價券！<br>
+            定期精選文章資訊及最新優惠資訊，<br>
+            還不通通給我訂閱起來？
+          </p>
+          <input type="email" name="email" id="email" class="border border-3 wxl" placeholder="輸入Email">       
+          <a href="#" class="btn text-white bg-black d-flex justify-content-center align-items-content mt-11">
+            <span class="align-middle">確認訂閱</span>
+            <i class="bi bi-chevron-double-right"></i>
+          </a>      
+        </div>      
+      </div>
+    </div>
+
+    <hr>
+    <div class="body8">
+      <h3>此刻打盹，你將做夢；此刻學習，你將圓夢</h3>
+      <h6>——我也不知道誰說的</h6>
+    </div>
+
+    <hr class="hr">
+    <div class="footer">© 7TAO七逃. All Rights Reserved</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script> -->
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
